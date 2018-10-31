@@ -1,0 +1,28 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+  <properties>
+    <title>This is Nexus-Jenkins integration on my local system</title>
+    <author email="iliyaz.khan@jktech.com"> Iliyaz Khan</author>
+  </properties>
+  <body>
+    <release version="1.0" date="2018-10-31" description="Subsequent release">
+      <action dev="Change1" type="add">
+        Installation of Nexus on Local sytem.
+      </action>
+      <action dev="Change2" type="fix" issue="MPJIRA-11">
+        Jenkins installation and configuration.
+      </action>
+      <action dev="Change3" type="remove" due-to="Allan Ramirez" due-to-email="iliyaz.khan@jktech.com">
+        Add the description about what you have done in this change example like what you have edited or added or removed.
+             Jenkins-Nexus Integration.
+      </action>
+    </release>
+
+    <release version="1.0" date="2018-10-31" description="First release">
+      <action dev="Iliyaz" type="update">
+        Uploaded documentation on how to use the plugin.
+      </action>
+    </release>
+  </body>
+</document>
