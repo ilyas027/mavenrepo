@@ -24,15 +24,33 @@
         </configuration>
       </plugin>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>attach-descriptor</id>
-            <goals>
-              <goal>attach-descriptor</goal>
-            </goals>
-          </execution>
-        </executions>
+        <version>3.2</version><!-- last maven-site-plugin version supporting this reportPlugins configuration -->
+        <configuration>
+          ...
+          <reportPlugins><!-- not supported any more, causes WARNING in Maven 3.5.0: move to <project><reporting><plugins> instead -->
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-project-info-reports-plugin</artifactId>
+              <version>2.4</version>
+              <configuration>
+                <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
+                <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+              </configuration>
+              <!-- simpler configuration without reportSets available for usual cases -->
+              <reports>
+                <report>dependencies</report>
+                <report>scm</report>
+              </reports>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-javadoc-plugin</artifactId>
+              <version>2.8</version>
+            </plugin>
+          </reportPlugins>
+        </configuration>
       </plugin>
     </plugins>
    </build>
