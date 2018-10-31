@@ -5,6 +5,7 @@
   <version>1.0-Release</version>
   <packaging>war</packaging>
   <build>
+    <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
