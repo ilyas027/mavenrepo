@@ -6,7 +6,6 @@
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <reporting>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -24,6 +23,10 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+      <plugins>
+   </build>
+    <reporting>
+     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-changes-plugin</artifactId>
@@ -38,7 +41,6 @@
       </plugin>
     </plugins>
   </reporting>
-  </build>
    <distributionManagement>
         <repository>
             <id>deployment</id>
