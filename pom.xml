@@ -4,7 +4,6 @@
   <artifactId>studentapp</artifactId>
   <version>1.0-Release</version>
   <packaging>war</packaging>
-  <sourceDirectory>src</sourceDirectory>
   <build>
     <plugins>
       <plugin>
