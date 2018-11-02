@@ -13,7 +13,7 @@
       <action dev="Change2" type="fix" issue="MPJIRA-11">
         Jenkins installation and configuration.
       </action>
-      <action dev="Change3" type="remove" due-to="Allan Ramirez" due-to-email="iliyaz.khan@jktech.com">
+      <action dev="Change3" type="remove" due-to="Iliyaz Khan" due-to-email="iliyaz.khan@jktech.com">
         Add the description about what you have done in this change example like what you have edited or added or removed.
              Jenkins-Nexus Integration.
       </action>
