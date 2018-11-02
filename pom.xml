@@ -72,7 +72,7 @@
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>scp:http://localhost:8081/repository/sample-snap/</url>
+            <url>http://localhost:8081/repository/sample-snap/</url>
         </snapshotRepository>
      <site>
       <id>deployment</id>
