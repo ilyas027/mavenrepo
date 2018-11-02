@@ -62,7 +62,7 @@
         </snapshotRepository>
      <site>
       <id>deployment</id>
-      <url>http://localhost:8081/repository/sample-upload-release/</url>
+      <url>scp:http://localhost:8081/repository/sample-upload-release/</url>
     </site>
     </distributionManagement>
   <dependencies>
