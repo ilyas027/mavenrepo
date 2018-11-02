@@ -76,7 +76,8 @@
         </snapshotRepository>
      <site>
       <id>deployment</id>
-      <url>http://localhost:8081/repository/sample-upload-release/</url>
+      <name>Internal Release Notes</name>
+      <url>dav:http://localhost:8081/repository/sample-upload-release/</url>
     </site>
     </distributionManagement>
   <dependencies>
