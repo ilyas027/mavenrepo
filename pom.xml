@@ -60,6 +60,10 @@
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8081/repository/sample-snap/</url>
         </snapshotRepository>
+     <site>
+      <id>deployment</id>
+      <url><url>http://localhost:8081/repository/sample-upload-release/</url>
+    </site>
     </distributionManagement>
   <dependencies>
   	<dependency>
