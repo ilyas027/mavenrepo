@@ -77,7 +77,7 @@
      <site>
       <id>deployment</id>
       <name>Internal Release Notes</name>
-      <url>dav:http://localhost:8081/repository/sample-upload-release/</url>
+      <url>dav:http://localhost:8081/repository/site/</url>
     </site>
     </distributionManagement>
   <dependencies>
