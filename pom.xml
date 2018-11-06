@@ -75,7 +75,7 @@
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8081/repository/sample-snap/</url>
-            <layout>legacy</layout>
+            <layout>default</layout>
         </snapshotRepository>
      <site>
       <id>deployment</id>
