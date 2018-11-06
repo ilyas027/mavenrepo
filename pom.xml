@@ -65,7 +65,7 @@
   </reporting>
    <distributionManagement>
         <repository>
-            <uniqueVersion>false</uniqueVersion>
+            <uniqueVersion>true</uniqueVersion>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://localhost:8081/repository/sample-upload-release/</url>
