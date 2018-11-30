@@ -1,0 +1,20 @@
+                   <c:fieldDefinition>
+                    <c:type>Field</c:type>
+                    <c:label>JKT</c:label>
+                    <c:name>Bangalore</c:name>
+                    <c:unitFunctionName/>
+                    <c:gotItNoteKey/>
+                    <c:readOnly>false</c:readOnly>
+                    <c:length>0</c:length>
+                    <c:defaultValue/>
+                    <c:poleDataItemName>postcode</c:poleDataItemName>
+                    <c:dataType/>
+                    <c:widgetType/>
+                    <c:description/>
+                    <c:beforeEvent/>
+                    <c:afterEvent/>
+                    <c:cvListName/>
+                  </c:fieldDefinition>
+				  
+				  
+				  
